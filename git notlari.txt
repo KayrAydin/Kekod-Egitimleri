@@ -1,0 +1,16 @@
+git commands:
+
+git init (initialize)
+git status ( klasördeki değişiklikleri gösteriyor)
+git add ( * hepsi, *.txt (txtlerin hepsi) , "dosya adı" ) (staging area denilen bölgeye koyuyor (2. bölge)
+git diff (lokalde olan değişiklikleri söylüyor)
+git diff --stage (staging areadaki değişiklikleri gösteriyo)
+diff log (klasör içindeki atılmış tüm logları gösteriyor)
+git commit -m "gerekli not yazılıyor dosya tamamlandı gibi"
+
+
+
+3 bölge var 
+1. bölge kendi pcmiz
+2. bölge araf  (git add aşaması)
+3. bölge lokalde herkesin eriştiği commit atılan yer

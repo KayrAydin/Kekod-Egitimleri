@@ -1,0 +1,41 @@
+Git init komutuna karşılık gelir, .git klasörü oluşmuş oldu
+**İlk proje açıldığında kesinlikle yap!**
+VCS -> Enable Version Control Integration... -> Git -> OK
+Sol alt version control -> "Git"e dönüştü
+Commit kısmında changes görünür, unversioned files kırmızı untracked olan klasörlerle aynı durumda (gitte)
+gitten teyit edildiğinde .idea ve proje ismi kırmızı görünür,
+git add * denildiği takdirde refreshlenirse unversioned olanlar idea içinde staging areaya geçmiş olur.
+idea üzerinde commit kısmından rollbacl (yapılan tüm değişiklikleri geri al) denildiğinde gitten restore etmekle aynı olur,
+commit kısmı üzerinden unversioned olanlar changes kısmına sürüklenerek de gitten add işlevinin aynısı
+(staging areaya aktarma) gerçekleştirilir
+Değişiklikler commit kısmından seçilip altta comment mesajı yazılıp commit denilirse
+git üzerinden commit -m "mesaj" işleminin aynısı gerçekleştirilir, şuan hala lokaldeyiz herhangi bir 
+servere bağlı değilir, servere bağlanıldığı takdirde push edilebilir push edildiği takdirde yalnızca lokalde değil
+pushlanılan yerde de yedeklenilmiş olur (bkz. github ayarla)
+Yeni dosya eklendiğinde otomatik olarak git track etsin mi diye sorulur, sorulduğunda otomatik ekletilebilir
+cancel denirse committe unversioned görünür (sonradan eklenilebilir) 
+otomatik ekleme seçildiği takdirde direkt olarak staging areaya aktarır.
+Yeşil olanlara tekrardan da commit gerçekleştirilebilir.
+Sol altta git bölümüne bakıldığında program üzerinden git diff komutu girilmiş gibi görülebilir,
+commitler seçilip sağ taraftan sağ tıklayıp show diff denildiği takdirde değişiklikler üstten görülebilmekte.
+halihazırda staging areada olan bir dosyada değişiklik yapıldığında tekrar tekrar eklemeye gerek yok kod yazıldıkça
+staging areada değişiklik gerçekleşir maviye dönüştüğünde staging areada değişiklik olduğu anlamına gelir show diff
+dendiğinde yeşil olan yerler yapılan son değişiklikler,
+tekrardan commitlendiği takdirde yine yeşile döner ve altta git kısmında yeni değişikliklerle tekrar kaydedilmiş olur
+show diff changes kısmından da altta git kısmından da kullanılabilir.
+Sağ tıklayıp annotate with git blade denilirse her bir değişikliği kimin gerçekleştirdiğine bakılabilir.
+show diff kısmından inceleme esnasında istenilen herhangi spesifik değişiklik de gerçekleştirilebilir (komple rollback
+yapmaya gerek yok)
+
+Önceden VCS olan kısım artık Git
+Git -> GitHub -> share project on GitHub
+github sayfasına eklenecek (private olmazsa herkes erişebilir)
+octotree isimli bir extention kurduğunuzda githubda public repolar solda görünür.
+
+yapılan her şey artık commit edildikten sonra (hala lokaldeyken) pushlanıp github üzerine de aktarılmış olur, 
+pushlanacak dosyadaki dosyanın son pushla diffini de göndermeden önce görebiliriz
+
+git bash ardından git clone link formatıyla istenilen dosyaları bash aldığınız klasörün içine otomatik olarak indirtebilirsiniz,
+
+private olan repolara collaborator eklenilerek yalnızca eklediğiniz kişilerin görmesini sağlayabilirsinir.
+
