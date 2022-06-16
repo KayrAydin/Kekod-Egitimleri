@@ -4,31 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb0c8a4-09bc-4c48-82f5-a526c08d162c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KotlinLessonsKeKod.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a1GettingStarted/1-HelloWorld.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a1GettingStarted/2-PackageDefinitionAndImportProgramEntryPointsComments.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a1GettingStarted/3-Variables.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/1-Numbers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/2-TypeConversion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/3-Characters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/4-Boolean.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/5-Arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/6-String.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/7-Range.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/8-Nullables.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/controlFlows/1-Operators.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/controlFlows/2-OperatorOverloading.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a3Functions/1-Basics.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a3Functions/2-FunctionScoops.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a3Functions/3-InfixFunctions.kt" afterDir="false" />
+    <list default="true" id="efb0c8a4-09bc-4c48-82f5-a526c08d162c" name="Changes" comment="Git'in kendi dosyalarinizdan kasti sanirsam lokal olanlar degil gitte olanlarmis tum dosyalari tekrardan farkli bir klasorde olusturuldu">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/controlFlows/3-IfElse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a3Functions/4-ExtensionFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a3Functions/5-HigherOrderFunctions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/a2Basics/controlFlows/2-OperatorOverloading.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/controlFlows/2-OperatorOverloading.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,22 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Kotlin._2_OperatorOverloadingKt">
+}</component>
+  <component name="RunManager" selected="Kotlin._3_IfElseKt">
     <configuration name="_1_OperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a2Basics.controlFlows._1_OperatorsKt" />
       <module name="KotlinLessonsKeKod" />
@@ -85,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_6_StringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a2Basics._6_StringKt" />
+    <configuration name="_3_IfElseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a2Basics.controlFlows._3_IfElseKt" />
       <module name="KotlinLessonsKeKod" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._3_IfElseKt" />
         <item itemvalue="Kotlin._2_OperatorOverloadingKt" />
         <item itemvalue="Kotlin._1_OperatorsKt" />
         <item itemvalue="Kotlin._8_NullablesKt" />
         <item itemvalue="Kotlin._7_RangeKt" />
-        <item itemvalue="Kotlin._6_StringKt" />
       </list>
     </recent_temporary>
   </component>
@@ -124,8 +105,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655279926544</updated>
-      <workItem from="1655279928434" duration="1094000" />
+      <workItem from="1655279928434" duration="2590000" />
+      <workItem from="1655307271599" duration="1125000" />
+      <workItem from="1655313227984" duration="689000" />
+      <workItem from="1655410003195" duration="2693000" />
     </task>
+    <task id="LOCAL-00001" summary="Git'in kendi dosyalarinizdan kasti sanirsam lokal olanlar degil gitte olanlarmis tum dosyalari tekrardan farkli bir klasorde olusturuldu">
+      <created>1655281115405</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655281115405</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,5 +133,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Git'in kendi dosyalarinizdan kasti sanirsam lokal olanlar degil gitte olanlarmis tum dosyalari tekrardan farkli bir klasorde olusturuldu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git'in kendi dosyalarinizdan kasti sanirsam lokal olanlar degil gitte olanlarmis tum dosyalari tekrardan farkli bir klasorde olusturuldu" />
   </component>
 </project>
