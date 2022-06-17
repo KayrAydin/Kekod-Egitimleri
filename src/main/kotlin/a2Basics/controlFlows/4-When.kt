@@ -104,5 +104,45 @@ fun main() {
         }
     }
     /*---------------------------------------------------------------------------------------------------------------*/
-
+    /**
+     * Karsilastirilacak sey deger degil degisken de olabilir
+     */
+    val trCode = "tr"
+    val itCode = "it"
+    val frCode = "fr"
+    val ukCode = "uk"
+    val usCode = "us"
+    when (countryCode.lowercase()) {
+        trCode, "az" -> println("TC Vatandaşı")
+        itCode -> println("İtalya Vatandaşı")
+        frCode, ukCode, usCode -> println("Dünya Vatandaşı")
+    }
+    /**
+     * is ve !is ile class ref olup olmadigi kontrol edilebilir
+     */
+    val phoneNumber: Long = 5001001010
+    when (phoneNumber) {
+        is Long -> {
+            println("Long Value")
+        }
+        !is Long -> {
+            println("Not Long Value")
+        }
+    }
+    /*----------------------------------------------------------------------------------------------------------------*/
+    /**
+     * rangeler in !in seklinde  kontrol edilebilir
+     */
+    val number = 3
+    when (number) {
+        in 0..10 -> {
+            println("0 to 10")
+        }
+        in 11..20 -> {
+            println("10 to 20")
+        }
+        !in 0..20 -> {
+            println("not in range")
+        }
+    }
 }

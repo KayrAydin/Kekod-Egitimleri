@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb0c8a4-09bc-4c48-82f5-a526c08d162c" name="Changes" comment="if else tamamlandi, whene gecildi">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/controlFlows/4-When.kt" afterDir="false" />
+    <list default="true" id="efb0c8a4-09bc-4c48-82f5-a526c08d162c" name="Changes" comment="Pratik ettik">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Hws and Examples/Grade calculator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/loops/1-ForLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/loops/2-WhileLoop.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/a2Basics/controlFlows/4-Whet.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/a2Basics/controlFlows/4-When.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/a2Basics/controlFlows/4-When.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.intentionPowerPack"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.intentionPowerPack&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Kotlin.DenemeKt">
+}</component>
+  <component name="RunManager" selected="Kotlin.Grade_calculatorKt">
     <configuration name="DenemeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="a2Basics.controlFlows.DenemeKt" />
       <module name="KotlinLessonsKeKod" />
@@ -58,22 +60,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1_OperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a2Basics.controlFlows._1_OperatorsKt" />
+    <configuration name="Grade_calculatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hws and Examples.Grade_calculatorKt" />
       <module name="KotlinLessonsKeKod" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_OperatorOverloadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a2Basics.controlFlows._2_OperatorOverloadingKt" />
+    <configuration name="_1_ForLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a2Basics.loops._1_ForLoopKt" />
       <module name="KotlinLessonsKeKod" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_IfElseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a2Basics.controlFlows._3_IfElseKt" />
+    <configuration name="_2_WhileLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a2Basics.loops._2_WhileLoopKt" />
       <module name="KotlinLessonsKeKod" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.DenemeKt" />
+        <item itemvalue="Kotlin.Grade_calculatorKt" />
+        <item itemvalue="Kotlin._2_WhileLoopKt" />
+        <item itemvalue="Kotlin._1_ForLoopKt" />
         <item itemvalue="Kotlin._4_WhenKt" />
-        <item itemvalue="Kotlin._3_IfElseKt" />
-        <item itemvalue="Kotlin._2_OperatorOverloadingKt" />
-        <item itemvalue="Kotlin._1_OperatorsKt" />
+        <item itemvalue="Kotlin.DenemeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +109,9 @@
       <workItem from="1655279928434" duration="2590000" />
       <workItem from="1655307271599" duration="1125000" />
       <workItem from="1655313227984" duration="689000" />
-      <workItem from="1655410003195" duration="7491000" />
+      <workItem from="1655410003195" duration="7652000" />
+      <workItem from="1655473341747" duration="5199000" />
+      <workItem from="1655488575615" duration="14849000" />
     </task>
     <task id="LOCAL-00001" summary="Git'in kendi dosyalarinizdan kasti sanirsam lokal olanlar degil gitte olanlarmis tum dosyalari tekrardan farkli bir klasorde olusturuldu">
       <created>1655281115405</created>
@@ -123,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655412833465</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="When son 10 satir kaldi functionlara gecilecek">
+      <created>1655417635446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655417635446</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +154,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Git'in kendi dosyalarinizdan kasti sanirsam lokal olanlar degil gitte olanlarmis tum dosyalari tekrardan farkli bir klasorde olusturuldu" />
     <MESSAGE value="if else tamamlandi, whene gecildi" />
-    <option name="LAST_COMMIT_MESSAGE" value="if else tamamlandi, whene gecildi" />
+    <MESSAGE value="When son 10 satir kaldi functionlara gecilecek" />
+    <MESSAGE value="Pratik ettik" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pratik ettik" />
   </component>
 </project>
